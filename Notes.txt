@@ -8,3 +8,26 @@
 - React native knows how to take information from components and show it on a mobile device
 - Adding curly braces in an import means your import a specific section of a library
 
+Primitive Elements
+- View == Div basically 
+
+- the HTML looking stuff is called JSX. JSX is converted to javascript code using Babel 
+
+Rules of JSX
+- Semicolons are not needed when wrapped within a view element
+- Why use JSX at all? 
+    - It basically simplifies the process of writing javascript 
+- [1 - ComponentsScreen.js] We can refer to JS Variables inside of a JSX block by using curly braces 
+    - You cannot however show a JS Object inside of a text element
+    - Have the ability to assign a JSX thing to a JS variable and then call the JS variable. Why?
+        - May want to create JSX conditionally ahead of time so we may want to put an image or text value instead
+            - This is like v-if kinda 
+- Frequent Errors:
+    
+
+
+- What's App Navigator? 
+    - It's from a tool called React Navigation
+    - Basically showing different content to a user 
+- How does Styles really work?
+    - The reason you use stylesheet.create is because it automatically validates different stylign rules to stlyes we create
