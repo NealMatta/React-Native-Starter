@@ -1,0 +1,10 @@
+- 4 pieces of every react component
+    1. Import libraries we need to create a component
+    2. Create a component - A function that returns some 'JSX'
+    3. Create a stylesheet to style our component
+    4. Export the component so we can use it elsewhere in our project
+
+- React library is how different components work together 
+- React native knows how to take information from components and show it on a mobile device
+- Adding curly braces in an import means your import a specific section of a library
+
