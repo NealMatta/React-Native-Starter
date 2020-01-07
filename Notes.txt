@@ -31,3 +31,10 @@ Rules of JSX
     - Basically showing different content to a user 
 - How does Styles really work?
     - The reason you use stylesheet.create is because it automatically validates different stylign rules to stlyes we create
+
+- Two different ways of showing a button to a user
+    - primitive element --> button
+        - Can't customize it too much though 
+    - ToucableOpacity
+        - More like an A tag so that you can have more complex interactions
+        

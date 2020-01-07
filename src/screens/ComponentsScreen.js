@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 // function () === () =>
-const HomeScreen = function() {
+const ComponentsScreen = function() {
 	// [1]
 	const name = "Neal";
 
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
 	}
 });
 
-export default HomeScreen;
+export default ComponentsScreen;
