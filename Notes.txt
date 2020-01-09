@@ -37,4 +37,11 @@ Rules of JSX
         - Can't customize it too much though 
     - ToucableOpacity
         - More like an A tag so that you can have more complex interactions
-        
+//////////////////////////////
+///////// Section 6 //////////
+//////////////////////////////
+- State
+    - tracking a piece of data that will change over time
+    - Any time it changes, the app should 'rerender'
+- Props
+    - Communicating data from a parent to a child 
