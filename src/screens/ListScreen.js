@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
-import { getCurrentFrame } from "expo/build/AR";
 
 // function () === () =>
 const ListScreen = function() {
