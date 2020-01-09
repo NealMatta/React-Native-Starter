@@ -49,6 +49,14 @@ const HomeScreen = function({ navigation }) {
 			>
 				<Text>Go to Color Screen Demo</Text>
 			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.button}
+				onPress={function() {
+					navigation.navigate("ColorSquare");
+				}}
+			>
+				<Text>Go to Color Square Demo</Text>
+			</TouchableOpacity>
 		</View>
 	);
 };
