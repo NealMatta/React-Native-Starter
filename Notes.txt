@@ -23,7 +23,6 @@ Rules of JSX
         - May want to create JSX conditionally ahead of time so we may want to put an image or text value instead
             - This is like v-if kinda 
 - Frequent Errors:
-    
 
 
 - What's App Navigator? 
@@ -45,6 +44,9 @@ Rules of JSX
     - Any time it changes, the app should 'rerender'
 - Props
     - Communicating data from a parent to a child 
-- Generally, we create state variables in the most parent component that needs to read or change a state value 
-- If a child neads to READ a state value, the parent component can pass the value down as a prop 
+- Generally, we create state variables in the most parent component that needs to read or change a state value
+- If a child neads to READ a state value, the parent component can pass the value down as a prop
 - If a child needs to CHANGE a state value, the parent can pass down a callback function to change the state value as a prop
+- Reducer
+    - Function that manages changes to some kind of Object
+    - Function that always gets called with two objects
