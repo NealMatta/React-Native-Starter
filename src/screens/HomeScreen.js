@@ -73,6 +73,14 @@ const HomeScreen = function({ navigation }) {
 			>
 				<Text>Go to Counter Reducer</Text>
 			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.button}
+				onPress={function() {
+					navigation.navigate("TextScreen");
+				}}
+			>
+				<Text>Go to Text Screen</Text>
+			</TouchableOpacity>
 		</View>
 	);
 };
