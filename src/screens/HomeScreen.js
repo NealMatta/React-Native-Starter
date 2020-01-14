@@ -65,6 +65,14 @@ const HomeScreen = function({ navigation }) {
 			>
 				<Text>Go to Color Square Reducer Demo</Text>
 			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.button}
+				onPress={function() {
+					navigation.navigate("CounterReducer");
+				}}
+			>
+				<Text>Go to Counter Reducer</Text>
+			</TouchableOpacity>
 		</View>
 	);
 };

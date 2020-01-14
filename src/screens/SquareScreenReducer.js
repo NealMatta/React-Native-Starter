@@ -1,11 +1,5 @@
 import React, { useReducer } from "react";
-import {
-	TouchableOpacity,
-	Text,
-	StyleSheet,
-	View,
-	FlatList
-} from "react-native";
+import { Text, StyleSheet, View } from "react-native";
 import ColorCounter from "../components/ColorCounter";
 
 /*
